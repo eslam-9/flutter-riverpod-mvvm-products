@@ -1,16 +1,28 @@
-# riverpod_files
+# 🛍️ Flutter Riverpod MVVM Products App
 
-A new Flutter project.
+A simple Flutter application demonstrating state management using **Riverpod** with the **MVVM architecture**.  
+It displays a list of products, allows users to mark/unmark loved items, and shows them in a separate screen.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+> All Products
+> Loved Products
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Features
+
+- MVVM structure with Riverpod
+- Two screens:
+  - 🛒 All Products
+  - ❤️ Loved Products
+- Toggling favorite (loved) status
+- Using `StateNotifierProvider` for business logic
+- Dummy product data
+
+---
+
+## 📁 Project Structure
+
