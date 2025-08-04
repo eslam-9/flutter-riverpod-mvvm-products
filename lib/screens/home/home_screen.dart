@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_files/providers/cart_provider.dart';
 
 import 'package:riverpod_files/providers/products_provider.dart';
@@ -11,6 +11,7 @@ class HomeScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final allProducts = ref.watch(productProvider);
     final cartProduct = ref.watch(cartNotifierProvider);
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Garage Sale Products'),
