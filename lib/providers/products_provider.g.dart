@@ -6,7 +6,7 @@ part of 'products_provider.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$productHash() => r'5c51d823a6be6793e74f8ab336b893404e93b868';
+String _$productHash() => r'70d289474a824f183d5e379a523b3530651c84c2';
 
 /// See also [product].
 @ProviderFor(product)
@@ -22,7 +22,7 @@ final productProvider = AutoDisposeProvider<List<Product>>.internal(
 @Deprecated('Will be removed in 3.0. Use Ref instead')
 // ignore: unused_element
 typedef ProductRef = AutoDisposeProviderRef<List<Product>>;
-String _$reducedProductsHash() => r'a3555e8c5d0951dd3f477459086a52acf7627484';
+String _$reducedProductsHash() => r'0b105afbb97a1a8674108ae01a0f6357e974a4a1';
 
 /// See also [reducedProducts].
 @ProviderFor(reducedProducts)
